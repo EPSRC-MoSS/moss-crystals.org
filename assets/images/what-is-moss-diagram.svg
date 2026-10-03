@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-labelledby="title description">
+  <title id="title">Comparison of a molecular crystal and a molecular solid solution</title>
+  <desc id="description">A perfect molecular crystal contains only green host molecules. A molecular solid solution contains the same ordered host lattice with a small number of orange guest molecules substituted into it.</desc>
+  <defs>
+    <rect id="host" width="82" height="54" rx="14" fill="#dce5d4" stroke="#171713" stroke-width="7"/>
+    <rect id="guest" width="82" height="54" rx="14" fill="#e5a23f" stroke="#171713" stroke-width="7"/>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="518" rx="28" fill="#ffffff"/>
+
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle" fill="#171713">
+    <text x="250" y="62" font-size="36" font-weight="800">Molecular crystal</text>
+    <text x="750" y="62" font-size="36" font-weight="800">Molecular solid solution</text>
+    <text x="250" y="98" font-size="20" font-weight="650" fill="#625f55">one molecule, ordered throughout</text>
+    <text x="750" y="98" font-size="20" font-weight="650" fill="#625f55">a small amount of a guest in the host lattice</text>
+  </g>
+
+  <g aria-label="Host-only crystal lattice">
+    <use href="#host" x="64" y="142"/><use href="#host" x="158" y="142"/><use href="#host" x="252" y="142"/><use href="#host" x="346" y="142"/>
+    <use href="#host" x="106" y="208"/><use href="#host" x="200" y="208"/><use href="#host" x="294" y="208"/>
+    <use href="#host" x="64" y="274"/><use href="#host" x="158" y="274"/><use href="#host" x="252" y="274"/><use href="#host" x="346" y="274"/>
+    <use href="#host" x="106" y="340"/><use href="#host" x="200" y="340"/><use href="#host" x="294" y="340"/>
+  </g>
+
+  <g aria-label="Crystal lattice containing two guest molecules">
+    <use href="#host" x="564" y="142"/><use href="#host" x="658" y="142"/><use href="#host" x="752" y="142"/><use href="#host" x="846" y="142"/>
+    <use href="#host" x="606" y="208"/><use href="#host" x="700" y="208"/><use href="#guest" x="794" y="208"/>
+    <use href="#host" x="564" y="274"/><use href="#host" x="658" y="274"/><use href="#host" x="752" y="274"/><use href="#host" x="846" y="274"/>
+    <use href="#guest" x="606" y="340"/><use href="#host" x="700" y="340"/><use href="#host" x="794" y="340"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="20" font-weight="750">
+    <g transform="translate(300 458)"><rect x="-105" y="-22" width="210" height="44" rx="22" fill="#f4f7f1"/><circle cx="-72" r="11" fill="#dce5d4" stroke="#171713" stroke-width="4"/><text x="-48" y="7" fill="#171713">host molecule</text></g>
+    <g transform="translate(700 458)"><rect x="-108" y="-22" width="216" height="44" rx="22" fill="#fbf6eb"/><circle cx="-75" r="11" fill="#e5a23f" stroke="#171713" stroke-width="4"/><text x="-51" y="7" fill="#171713">guest molecule</text></g>
+  </g>
+</svg>
